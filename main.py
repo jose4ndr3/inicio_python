@@ -1,5 +1,5 @@
-import variables
-import funciones
+import elementos.variables
+import elementos.funciones
 
-funciones.mensaje("Iniciando el script ...")
-funciones.mensaje("Ruta principal: " + variables.dir_name)
+elementos.funciones.mensaje("Iniciando el script ...")
+elementos.funciones.mensaje("Ruta principal: " + elementos.variables.dir_name)
